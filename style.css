@@ -58,7 +58,7 @@ main {
   position: absolute;
   top: 550px;
   width: 1200px;
-  height: 1200px;
+  height: 1300px;
   margin-bottom: 15px;
   z-index: -1;
 
@@ -138,4 +138,49 @@ main {
 
 .container .box:hover .content{
   transform: translateY(0px);
+}
+
+.info-section {
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.info-section h2 {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.info-section p {
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.4;
+}
+
+.history p {
+  margin: 8px auto;
+}
+
+.president-section {
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.president-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #d7f6d8;
+  margin-bottom: 15px;
+}
+
+@media (mas-width: 768px) {
+  .president-img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .info-section h2 {
+    font-size: 20px;
+  }
 }
