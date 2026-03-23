@@ -372,10 +372,3 @@ main {
   border: 5px solid #d7f6d8;
   background-color: #d7f6d8;
 }
-
-@media (mas-width: 768px) {
-  .ite-logo .ics-logo .ibe-logo {
-    width: 140px;
-    height: 140px;
-  }
-}
